@@ -13,7 +13,7 @@ npos = 40; % number of position bins
 postlen = 20;  % memory length of position 
 rwdtlen = 5;  % memory length of reward history 
 seqlen = 2e3; % toal time steps in each session 
-rp = 'TLeftRight'; %reward policy, put reward at maze ends
+rp = 'TLeftRight'; %reward policy, put rewards alternatively at left and right arams in a T maze
 % see ActRewardPolicy_Dynamic.m for options
 
 % Train parameters
