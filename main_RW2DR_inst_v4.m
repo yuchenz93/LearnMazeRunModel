@@ -33,7 +33,7 @@ Tpara.BatchSize = 0.1; % each iteration use a small portion to get gradiant (0-1
 Tpara.RTPlot = 0; % whether or not plot reward training loss
 Tpara.ActGamma = 0.95; % reward discount factor in determining action policy
 Tpara.TeleP = 40; % coefficient of teleportation panelty function
-Tpara.Errrange = 8; % if empty we will use default setting round(npos/5)
+Tpara.Errrange = round(npos/5); % the range where loss function can be measured from animal's current location
 Tpara.Dis = AllDisM(npos,rp); % distance matrix
 
 % path to save figures
