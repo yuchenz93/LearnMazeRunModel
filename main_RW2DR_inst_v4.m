@@ -1,6 +1,6 @@
-% this script stimulate rats behavior on a familiar linear track but
+% this script stimulate rats behavior on a familiar maze but
 % unknown reward policy, we want to study how the animal learn to run
-% directionaly on the track 
+% on the maze to collect rewards 
 % in this version, we use distance matrix so we can include T maze, also,
 % we use limited past position and limited reward history to predict reward
 
