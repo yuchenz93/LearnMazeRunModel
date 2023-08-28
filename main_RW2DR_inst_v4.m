@@ -28,8 +28,8 @@ Tpara.RTsteps = 2e3; % iteration limits of reward policy training
 Tpara.RTalpha = 0.3; % reward training learning rate
 Tpara.RTMom = 0.95; % momentum factor to accelerate reward training
 Tpara.RTL2 = 0.0001; % L2 regularization of reward training, usually smaller than 0.01
-Tpara.BatchSize = 0.1; % each iteration use a small portion to get gradiant (0-1)
 % use even smaller values if the task is more difficult
+Tpara.BatchSize = 0.1; % each iteration use a small portion to get gradiant (0-1)
 Tpara.RTPlot = 0; % whether or not plot reward training loss
 Tpara.ActGamma = 0.95; % reward discount factor in determining action policy
 Tpara.TeleP = 40; % coefficient of teleportation panelty function
