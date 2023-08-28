@@ -40,8 +40,8 @@ Tpara.Dis = AllDisM(npos,rp); % distance matrix
 OutPath = '/media/yuchen/data14/CAResults/DirectionRun/DisM_RWDHistory_SeeActRWD/';
 savepath = [OutPath,rp,filesep];
 mkdir(savepath)
-Tpara.test = 0;
-runtest = 10; % run it several times
+Tpara.test = 0; % set this to 1 if to run a pilot test to see if the problem can be learnt with these parameters
+runtest = 5; % run it several times (as if we have several individual animals)
 %% Pilot study for new parameters
 if Tpara.test
    ParaPilotTest_v3(npos,postlen,rwdtlen,rp,Tpara) 
