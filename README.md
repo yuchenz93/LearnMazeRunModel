@@ -1,14 +1,14 @@
 # LearnMazeRunModel
 This is a model to explore how rats learn to run on a maze to collects rewards. The Code is written in Matlab 2017b
 
-To run the code, 
-first add entire package to the path;
-then open the lastest main file (for example, main_RW2DR_inst_v4.m), 
-         select the desired reward policy or create your reward policy in ActRewardPolicy_Dynamic.m
-         edit the OutPath where the figures will be saved
-         modify parameters if necessary. For example to speed up you can set runtest to 4 as if we run the experiment on 4 individual animals
-         run the code
-At this step, the sitmulation is slow, you may let it run over night.
+To run the code:
+First add entire package to the path;
+Then open the lastest main file (for example, main_RW2DR_inst_v4.m), 
+         select the desired reward policy or create your reward policy in ActRewardPolicy_Dynamic.m,
+         edit the OutPath where the figures will be saved,
+         modify parameters if necessary (For example to speed up you can set runtest to 4 as if we run the experiment on 4 individual animals),
+         and last run the code.
+In this version, the sitmulation is slow, you may let it run over night.
 
 
 Theory,
