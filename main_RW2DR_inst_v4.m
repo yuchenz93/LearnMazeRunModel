@@ -1,5 +1,5 @@
-% this script stimulate rats behavior on a familiar maze but
-% unknown reward policy, we want to study how the animal learn to run
+% this script stimulates rats' behavior on a familiar maze but
+% unknown reward policy, we want to study how animals learn to run
 % on the maze to collect rewards 
 % in this version, we use distance matrix so we can include T maze, also,
 % we use limited past position and limited reward history to predict reward
